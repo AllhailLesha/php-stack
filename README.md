@@ -5,3 +5,5 @@
 5. в dockerfile composer меняем название рабочей директории
 6. Для запука пишем docker compose up -d
 7. Инициализируем композер командой docker-compose run --rm php composer init   
+8. Чтобы поставить какой-то пакет из корневой директории проекта запускаем
+   docker-compose run --rm php composer require {$имяПакета}
